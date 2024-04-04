@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>Kişisel web sitesi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+        body{
+      
+            background-image:url(arkaplan.jpg);
+            background-size: 100% 100%;
+            
+        }
+        .picture img{
+            display : block;
+            width:100px;
+            height:100px;
+            border-radius: 50%;
+            
+        }
+        
+        .picture{
+            display: inline-block;
+            padding: 8px;
+            background: linear-gradient(30deg,#33ccff,#ff33cc);
+            margin:auto;
+            border-radius:50%;
+            animation: animasyon 2s linear infinite;
+            background-size: 200% 200%;
+        }
+        @keyframes animasyon{
+            25%{
+                background-position:left bottom;
+            }
+            %50{
+                 background-position:right bottom;
+            }
+            %75{
+                 background-position:right top;
+            }
+            %100{
+                 background-position:left top;
+            }
+        }
+        .sm{
+            display:flex;
+            justify-content:start;
+            margin:10px;
+        }
+        .sm a{
+            color:#660066;
+            width: 100px;
+            font-size: 50px;
+            transition:.3s linear;
+            
+        }
+        .sm a:hover{
+            color:#009999;
+        }
+        
+    </style>
+</head>
+
+<body>
+   <div class = "picture">
+      <img src="profilim.jpg" alt="profilim" style="width:250px;height:250px;"/> 
+   </div>   
+  
+   <div class="sm">
+       <a href="https://github.com/Ilknurmrx" target="_blank"><i class= "fa fa-github-square"></i></a>
+       <a href="https://www.instagram.com/ilknur_sevval/" target="_blank"><i class= "fa fa-instagram"></i></a>
+       <a href="https://wa.me/5445321758" target = "_blank"><i class= "fa fa-whatsapp"></i></a>
+   </div>
+       <h5 style="color: #009900">HOBİLERİM</h5>
+    <pre>
+    Resim çizmek 
+    Kitap okumak 
+    Basketbol en sevdiğim ama onun yanında voleybol tarzı şeyleri de severim.
+    Bisiklete binmeyi çok  severim, bana huzur veriyor.
+    Gezmeyi,yeni yerler görmeyi severim.
+    Müzik dinlemeyi severim.
+    Bu hayata yemek yemek için geldiğimi düşünüyorum. 
+    </pre>
+       <h5 style="color: #330066">HAKKIMDA</h5>
+    <pre>
+    Ben İlknur Şevval Yılmaz, Erzincan doğumluyum. Elazığ'da yaşıyorum. Malatya'da okuyorum.
+    İnönü üniversitesi'nde Yazılım mühendisliği 2. sınıfım. Bu bölümü isteyerek tercih ettim 
+    aslında istemediklerim arasında en mantıklı gelen bölümdü.Geldiğim için pişman değilim ve gelmişken 
+    de ilk olarak kendim için de iyi bir noktaya ulaşmam gerektiğinin farkındayım.Bunun içinde 
+    çok fazla çalışmam gerektiğini de biliyorum.
+    Bildiğim diller ingilizce az-orta seviye. 
+    Bildiğim program dilleri; C ,java ,html,css,Python az-orta seviyelerde biliyorum. C# da öğreniyorum.
+    </pre>
+    
+       <h5 style ="color: #ff0000">HEDEFLERİM</h5>
+    <pre>
+       İleride siber güvenlik alanında gelişmeyi düşünüyorum aslında bir çok 
+       alanda kendimi geliştirmek istiyorum.Bir çok alanda bilgim olsun ama şuan 
+       için gelişmek istediğim alan siber güvenlik. Ya da insansız hava araçları gibi
+       yapay zeka tarzı alanlar da ilgimi çekebilir.
+    </pre>
+       
+   
+</body>
+</html>
+
